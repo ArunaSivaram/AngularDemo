@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+// Bootstraps starts angular application by passing the AppModule
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
